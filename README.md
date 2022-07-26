@@ -10,9 +10,14 @@ git.clone -b testing https://github.com/POWBiosci/cleaning-scripts.git
 # Contents
 Repository consist of two main files, a bash script (clean.sh) and a python script (clean.py) The bash script performs preliminary cleaning on the csv file and pipes the cleaned output to the python script which strips out all unecessary characters and returns a JMP ready csv.
 
-# clean.sh
+# Running the Script
+Ensure you are in the directory which contains both clean.py and clean.sh and the csv file you have 
+
 ```bash
-echo hello
+.
+├── clean.py
+├── clean.sh
+└── data.csv
 ```
 
 # Important Comments

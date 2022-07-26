@@ -24,7 +24,7 @@ Because this is intended for running on the common lab computer you will first h
 ```bash
 wsl bash
 ```
-The temrinal should then display a # sign to indicate you are now running bash. Now run 
+The terminal should then display a # sign to indicate you are now running bash. Now run 
 
 ```bash
 bash clean.sh 

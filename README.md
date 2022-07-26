@@ -11,9 +11,9 @@ git.clone -b testing https://github.com/POWBiosci/cleaning-scripts.git
 Repository consist of two main files, a bash script (clean.sh) and a python script (clean.py) The bash script performs preliminary cleaning on the csv file and pipes the cleaned output to the python script which strips out all unecessary characters and returns a JMP ready csv.
 
 # clean.sh
-'''bash
+```bash
 echo hello
-'''
+```
 
 # Important Comments
 * Make sure your "fermentation samples" sheet is downloaded as a CSV

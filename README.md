@@ -19,6 +19,11 @@ Ensure you are in the directory which contains both clean.py and clean.sh and th
 ├── clean.sh
 └── data.csv
 ```
+Because this is intended for running on the common lab computer you will first have to access bash from the windows terminal. Open the terminal and run the following command
+
+```poweshell
+wsl bash
+```
 
 # Important Comments
 * Make sure your "fermentation samples" sheet is downloaded as a CSV

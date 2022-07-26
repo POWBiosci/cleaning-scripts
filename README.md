@@ -21,9 +21,15 @@ Ensure you are in the directory which contains both clean.py and clean.sh and th
 ```
 Because this is intended for running on the common lab computer you will first have to access bash from the windows terminal. Open the terminal and run the following command
 
-```poweshell
+```bash
 wsl bash
 ```
+The temrinal should then display a # sign to indicate you are now running bash. Now run 
+
+```bash
+bash clean.sh 
+```
+And input the filename of the file you want to clean, the script will now clean your data and output a file named cleaned_data.csv 
 
 # Important Comments
 * Make sure your "fermentation samples" sheet is downloaded as a CSV

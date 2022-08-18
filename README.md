@@ -4,7 +4,7 @@ Contains bash and python scripts to clean batch record offline data to machine r
 # Installation
 
 ```bash
-git.clone -b testing https://github.com/POWBiosci/cleaning-scripts.git
+git clone -b testing https://github.com/POWBiosci/cleaning-scripts.git
 ```
 
 # Contents

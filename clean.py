@@ -9,7 +9,7 @@ df = pd.read_csv(data)
 
 #remove all column with initials
 for i,row in enumerate(df.loc[:,'Initials']):
-    if not (isinstance(row,str) and len(row) == 2):
+    if not (isinstance(row,str) and len(row) <= 3):
         df = df.drop([i])
 
 #drop comments and initials column
